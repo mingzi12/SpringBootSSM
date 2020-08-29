@@ -11,7 +11,7 @@
         DESC
     </select>
     <select id="queryAreaById" resultType="com.springboot.ssm.demo.entity.Area">
-        SELECT aareaId, areaName,
+        SELECT areaId, areaName,
         priority, createTime, updateTime
         FROM tb_area
         WHERE
